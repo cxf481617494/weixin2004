@@ -12,5 +12,6 @@ class TestController extends Controller
     public function index(){
     	$UserModel = UserModel::get();
     	dd(123);
+    	echo "231";
     }
 }
